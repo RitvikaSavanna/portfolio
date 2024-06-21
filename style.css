@@ -288,6 +288,8 @@ img {
 .home__blob {
   width: 200px;
   fill: hsl(244, 65%, 12%);
+  object-fit: fill;
+  object-position: 25% 25%; 
   /* fill: hsl(69, 69%, 61%); */
 }
 .home__blob-img {
