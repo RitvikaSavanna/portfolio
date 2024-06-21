@@ -345,7 +345,7 @@ img {
 /*================== Buttons ===================*/
 .button {
   display: inline-block;
-  background-color:hsl(236, 65%, 10%)
+  background-color:hsl(223, 78%, 5%);
   color: #9DD1F1;
   padding: 1rem;
   margin-bottom: 10px;
@@ -354,7 +354,7 @@ img {
 }
 
 .button:hover {
-  background-color: #BA1200;
+  background-color: hsl(261, 36%, 33%);
 }
 
 .button__icon {
