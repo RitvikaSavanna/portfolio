@@ -345,8 +345,8 @@ img {
 /*================== Buttons ===================*/
 .button {
   display: inline-block;
-  background-color:hsl(223, 78%, 5%);
-  color: #9DD1F1;
+  background-color:#9DD1F1;
+  color: hsl(232, 76%, 10%);
   padding: 1rem;
   margin-bottom: 10px;
   border-radius: 0.5rem;
