@@ -323,7 +323,7 @@ img {
   display: none;
 }
 .home__scroll-button {
-  color:#BA1200;
+  color:hsl(253, 63%, 14%);
   transition: 0.3s;
 }
 .home__scroll-button:hover {
@@ -345,7 +345,7 @@ img {
 /*================== Buttons ===================*/
 .button {
   display: inline-block;
-  background-color:#9DD1F1;
+  background-color:hsl(236, 65%, 10%)
   color: #9DD1F1;
   padding: 1rem;
   margin-bottom: 10px;
@@ -354,7 +354,7 @@ img {
 }
 
 .button:hover {
-  background-color: hsl(253, 63%, 14%);
+  background-color: #BA1200;
 }
 
 .button__icon {
