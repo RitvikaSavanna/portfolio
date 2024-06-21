@@ -122,7 +122,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--title-color);
+  color: hsl(203, 86%, 8%);
   font-weight: var(--font-semi-bold);
 }
 ul {
@@ -182,19 +182,19 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: var(--title-color);
+  color: hsl(203, 86%, 8%);
   font-weight: var(--font-medium);
 }
 
 .nav__logo:hover {
-  color: var(--first-color);
+  color: #BA1200;
 }
 .nav__toggle {
   font-size: 1.1rem;
   cursor: pointer;
 }
 .nav__toggle:hover {
-  color: var(--first-color);
+  color: #BA1200;
 }
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -224,7 +224,7 @@ img {
 }
 
 .nav__link:hover {
-  color: var(--first-color);
+  color: #BA1200;
 }
 
 .nav__icon {
@@ -239,11 +239,11 @@ img {
   bottom: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--first-color);
+  color: hsl(203, 86%, 8%);
 }
 
 .nav__close:hover {
-  color: var(--first-color-alt);
+  color: hsl(203, 86%, 8%);
 }
 
 /* Show Menu */
@@ -253,7 +253,7 @@ img {
 
 /* Active Link */
 .active-link {
-  color: var(--first-color);
+  color: hsl(203, 86%, 8%);
 }
 
 /* Change Background header */
