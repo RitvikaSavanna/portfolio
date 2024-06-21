@@ -354,8 +354,8 @@ img {
 }
 
 .button:hover {
-  background-color: #5c7d91;
-  color:#BA1200;
+  background-color: #87c1e5;
+  ;
 }
 
 .button__icon {
@@ -397,7 +397,8 @@ img {
   border-radius: 500%;
   justify-self: center;
   align-self: center;
-  object-fit: fill;;
+  object-fit: fill;
+  object-position: 25% 25%; 
   /* border: 1px solid #fff; */
 }
 
