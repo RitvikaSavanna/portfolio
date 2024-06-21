@@ -355,6 +355,7 @@ img {
 
 .button:hover {
   background-color: #5c7d91;
+  color:#BA1200;
 }
 
 .button__icon {
