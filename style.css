@@ -279,15 +279,15 @@ img {
 
 .home__social-icon {
   font-size: 1.05rem;
-  color: var(--first-color);
+  color: hsl(203, 86%, 8%);
 }
 .home__social-icon:hover {
-  color: var(--first-color-lighter);
+  color: hsl(204, 84%, 12%);
 }
 
 .home__blob {
   width: 200px;
-  fill: var(--first-color);
+  fill: #BA1200;
   /* fill: hsl(69, 69%, 61%); */
 }
 .home__blob-img {
@@ -304,7 +304,7 @@ img {
 }
 .home__subtitle {
   font-size: var(--h3-font-size);
-  color: var(--text-color);
+  color: hsl(203, 86%, 8%);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
@@ -323,7 +323,7 @@ img {
   display: none;
 }
 .home__scroll-button {
-  color: var(--first-color);
+  color:#BA1200;
   transition: 0.3s;
 }
 .home__scroll-button:hover {
@@ -334,7 +334,7 @@ img {
 }
 .home__scroll-name {
   font-size: var(--small-font-size);
-  color: var(--title-color);
+  color: hsl(203, 86%, 8%);
   font-weight: var(--font-medium);
   margin-right: var(--mb-0-25);
 }
@@ -345,8 +345,8 @@ img {
 /*================== Buttons ===================*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
+  background-color:#BA1200;
+  color: hsl(203, 86%, 8%);
   padding: 1rem;
   margin-bottom: 10px;
   border-radius: 0.5rem;
@@ -354,7 +354,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: hsl(253, 63%, 14%);
 }
 
 .button__icon {
@@ -365,11 +365,11 @@ img {
 
 .button--white {
   background-color: #fff;
-  color: var(--first-color);
+  color: hsl(236, 67%, 13%);
 }
 
 .button--white:hover {
-  background-color: #fff;
+  background-color: #9DD1F1;
 }
 
 .button--flex {
@@ -382,12 +382,12 @@ img {
 .button--link {
   padding: 0;
   background-color: transparent;
-  color: var(--first-color);
+  color:hsl(223, 63%, 14%);
 }
 
 .button--link:hover {
   background-color: transparent;
-  color: var(--first-color-alt);
+  color: hsl(253, 63%, 14%);
 }
 
 /*===================== About ==================*/
@@ -396,6 +396,7 @@ img {
   border-radius: 500%;
   justify-self: center;
   align-self: center;
+  object-fit: fill;;
   /* border: 1px solid #fff; */
 }
 
