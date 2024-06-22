@@ -13,7 +13,7 @@
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --second-color: rgb(2, 2, 34);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
@@ -1306,12 +1306,12 @@ img {
 
  .about-content h2{
     text-align: left;
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
     line-height: 1.2;
  }
 
  .about-content h3{
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
  }
 
  .about-content p{
@@ -1320,6 +1320,7 @@ img {
  }
  .services h2{
    margin-bottom: 5rem;
+   font-size:var(--h1-font-size);
 
  }
  .services-container{
