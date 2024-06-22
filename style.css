@@ -1293,7 +1293,7 @@ img {
     align-items: center;
     gap: 2rem;
     font-size:var(--h1-font-size); 
-    background: hsl(232, 76%, 10%);
+  ;
  }
  .about-img img{
     width: 35rem;
@@ -1306,6 +1306,7 @@ img {
 
  .about-content h2{
     text-align: left;
+    font-size:var(--h3-font-size);
     line-height: 1.2;
  }
 
