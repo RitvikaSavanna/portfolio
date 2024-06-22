@@ -1292,7 +1292,8 @@ img {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--second-bg-color);
+    font-size:var(--h1-font-size); 
+    background: hsl(232, 76%, 10%);
  }
  .about-img img{
     width: 35rem;
