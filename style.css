@@ -90,13 +90,13 @@ body.dark-theme {
 
 .change-theme {
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: hsl(203, 86%, 8%);
   margin-right: var(--mb-1);
   cursor: pointer;
 }
 
 .change-theme:hover {
-  color: var(--first-color);
+  color: hsl(203, 86%, 8%);
 }
 
 /*================= Base ===============*/
@@ -105,6 +105,7 @@ body.dark-theme {
   padding: 0;
   margin: 0;
   background-color: #9DD1F1;
+  color: hsl(203, 86%, 8%);
 }
 
 html {
@@ -115,7 +116,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  color: var(--text-color);
+  color: hsl(203, 86%, 8%);
 }
 
 h1,
