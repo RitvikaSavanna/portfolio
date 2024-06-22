@@ -1306,12 +1306,12 @@ img {
 
  .about-content h2{
     text-align: left;
-    font-size:var(--h3-font-size);
+    font-size: var(--h2-font-size);
     line-height: 1.2;
  }
 
  .about-content h3{
-    font-size: 2.6rem;
+    font-size: var(--h2-font-size);
  }
 
  .about-content p{
